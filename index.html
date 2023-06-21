@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>QRCODE</title>
+</head>
+
+<body>
+    <h1>Gerador QrCode</h1>
+    <section>
+        <div class="conteudo">
+            <div class="um">
+                <h3>Digite seu conteúdo: </h3>
+                <textarea maxlength="256" rows="5"></textarea>
+                <div class="botoes">
+                    <button onclick="GerarQRCode()">Gerar QrCode</button>
+                    <button id="recarregar">Novo QrCode</button>
+                </div>
+                
+            </div>
+            <div class="dois">
+                <img id="QRcodeImage">
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>&#169 AramisLins</p>
+        <div>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        
+    </footer>
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>
